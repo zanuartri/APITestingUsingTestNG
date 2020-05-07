@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="covid19 Suite" duration-ms="13726" started-at="2020-05-07T04:01:54Z" finished-at="2020-05-07T04:02:08Z">
+    <groups>
+    </groups>
+    <test name="covid19 API Test" duration-ms="13726" started-at="2020-05-07T04:01:54Z" finished-at="2020-05-07T04:02:08Z">
+      <class name="com.g2academy.testcases.TC001_Get">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.g2academy.testcases.TC001_Get@34ce8af7]" name="setup" is-config="true" duration-ms="581" started-at="2020-05-07T04:01:54Z" finished-at="2020-05-07T04:01:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g2academy.testcases.TC001_Get@34ce8af7]" name="beforeClass" is-config="true" duration-ms="3451" started-at="2020-05-07T04:01:55Z" finished-at="2020-05-07T04:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="getAssertion()[pri:0, instance:com.g2academy.testcases.TC001_Get@34ce8af7]" name="getAssertion" duration-ms="97" started-at="2020-05-07T04:01:58Z" finished-at="2020-05-07T04:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAssertion -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g2academy.testcases.TC001_Get@34ce8af7]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-05-07T04:01:58Z" finished-at="2020-05-07T04:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.g2academy.testcases.TC001_Get -->
+      <class name="com.g2academy.testcases.TC005_Delete">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.g2academy.testcases.TC005_Delete@7f63425a]" name="setup" is-config="true" duration-ms="1" started-at="2020-05-07T04:02:04Z" finished-at="2020-05-07T04:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g2academy.testcases.TC005_Delete@7f63425a]" name="beforeClass" is-config="true" duration-ms="3886" started-at="2020-05-07T04:02:04Z" finished-at="2020-05-07T04:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="deleteAssertion()[pri:0, instance:com.g2academy.testcases.TC005_Delete@7f63425a]" name="deleteAssertion" duration-ms="0" started-at="2020-05-07T04:02:08Z" finished-at="2020-05-07T04:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAssertion -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g2academy.testcases.TC005_Delete@7f63425a]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-07T04:02:08Z" finished-at="2020-05-07T04:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.g2academy.testcases.TC005_Delete -->
+      <class name="com.g2academy.testcases.TC003_Post">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.g2academy.testcases.TC003_Post@880ec60]" name="setup" is-config="true" duration-ms="1" started-at="2020-05-07T04:02:00Z" finished-at="2020-05-07T04:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g2academy.testcases.TC003_Post@880ec60]" name="beforeClass" is-config="true" duration-ms="1832" started-at="2020-05-07T04:02:00Z" finished-at="2020-05-07T04:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g2academy.testcases.TC003_Post@880ec60]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-07T04:02:02Z" finished-at="2020-05-07T04:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="postAssertion()[pri:0, instance:com.g2academy.testcases.TC003_Post@880ec60]" name="postAssertion" duration-ms="0" started-at="2020-05-07T04:02:02Z" finished-at="2020-05-07T04:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAssertion -->
+      </class> <!-- com.g2academy.testcases.TC003_Post -->
+      <class name="com.g2academy.testcases.TC002_GetById">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.g2academy.testcases.TC002_GetById@b684286]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-07T04:01:58Z" finished-at="2020-05-07T04:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g2academy.testcases.TC002_GetById@b684286]" name="beforeClass" is-config="true" duration-ms="2123" started-at="2020-05-07T04:01:58Z" finished-at="2020-05-07T04:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="getByIdAssertion()[pri:0, instance:com.g2academy.testcases.TC002_GetById@b684286]" name="getByIdAssertion" duration-ms="0" started-at="2020-05-07T04:02:00Z" finished-at="2020-05-07T04:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByIdAssertion -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g2academy.testcases.TC002_GetById@b684286]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-07T04:02:00Z" finished-at="2020-05-07T04:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.g2academy.testcases.TC002_GetById -->
+      <class name="com.g2academy.testcases.TC004_Put">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.g2academy.testcases.TC004_Put@3f3afe78]" name="beforeClass" is-config="true" duration-ms="1720" started-at="2020-05-07T04:02:02Z" finished-at="2020-05-07T04:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.g2academy.testcases.TC004_Put@3f3afe78]" name="setup" is-config="true" duration-ms="0" started-at="2020-05-07T04:02:02Z" finished-at="2020-05-07T04:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="putAssertion()[pri:0, instance:com.g2academy.testcases.TC004_Put@3f3afe78]" name="putAssertion" duration-ms="1" started-at="2020-05-07T04:02:04Z" finished-at="2020-05-07T04:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putAssertion -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.g2academy.testcases.TC004_Put@3f3afe78]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-07T04:02:04Z" finished-at="2020-05-07T04:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.g2academy.testcases.TC004_Put -->
+    </test> <!-- covid19 API Test -->
+  </suite> <!-- covid19 Suite -->
+</testng-results>
